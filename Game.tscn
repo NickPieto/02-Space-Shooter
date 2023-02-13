@@ -17,10 +17,13 @@ script = ExtResource( 6 )
 [node name="Asteroid_Container" type="Node2D" parent="."]
 
 [node name="Asteroid" parent="Asteroid_Container" instance=ExtResource( 4 )]
-position = Vector2( 100, 100 )
+position = Vector2( 420, 100 )
+
+[node name="Asteroid3" parent="Asteroid_Container" instance=ExtResource( 4 )]
+position = Vector2( 100, 200 )
 
 [node name="Asteroid2" parent="Asteroid_Container" instance=ExtResource( 4 )]
-position = Vector2( 800, 500 )
+position = Vector2( 820, 430 )
 
 [node name="Effects" type="Node2D" parent="."]
 
